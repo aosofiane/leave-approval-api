@@ -1,0 +1,21 @@
+{
+  "name": "leave-approval-api",
+  "version": "0.1.0",
+  "description": "Leave request approval API — Node.js/TypeScript, clean architecture, demonstrating a role-aware approval workflow.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/**/*.test.ts",
+    "lint": "echo \"(eslint config to be added alongside the API layer)\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.0"
+  }
+}
